@@ -12,6 +12,9 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+ Iniciar o Ambiente Virtual MyVenv
+    1. Rodar o comando '. myvenv/bin/activate' na pasta Documentos/Python
+    2. Iniciar o servidor com o comando "python3 manage.py runserver" na pasta Documentos/Python/.vscode/djangogirls   
 """
 from django.contrib import admin
 from django.urls import path, include
